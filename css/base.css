@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url:('font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+
+
+body{background-color:#85D3E8;margin: 0;padding: 0; }
+h1,h2{font-family: 'Averia Serif Libre', cursive; padding-bottom:10px;}
+p{color:#666;font-size:16px;text-align:justify;font-family: sans-serif;}
+.navbar-default{background-color:#333;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#fff;}
+.navbar-default .navbar-brand{color:#85D3E8;font-size:36px;font-style:italic;}
+.jumbotron h1{color:#3B2A9C;padding:0 20px;}
+.jumbotron p{padding:0 20px;}
+footer{background-color: black;padding:15px;}
+footer p{color:#fff;}
+.contact{padding:35px;}
+#bootstrap-override footer ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+    /* override Bootstrap's style here */
+}
+.btn-default{padding:10px 25px;margin:0 auto;text-align:center;}
+#bootstrap-override footer ul li {
+	display: inline-block;
+	margin: 0 1rem 0 0;
+    /* override Bootstrap's style here */
+}
+
+#bootstrap-override header .container:first-child .row {
+	padding: 5% 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+}
+
+
+
+
+@media screen and (min-width: 300px){
+    
+    /* -- aligns list items horizontally in tablet view -- */
+    #bootstrap-overidde .container row card {
+        float: left;
+        margin: 0 0 0 1rem;
+    }
+}
